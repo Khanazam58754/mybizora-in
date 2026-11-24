@@ -1,13 +1,55 @@
-<!DOCTYPE html>
-<html lang="hi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MYBIZORA.IN</title>
-<style>*{margin:0;padding:0;box-sizing:border-box;font-family:Arial}body{background:#f8f7ff}.top{background:#1e1b4b;color:#fff;text-align:center;padding:8px;font-size:12px}header{background:#fff;display:flex;justify-content:space-between;align-items:center;padding:12px 15px}.logo{font-size:26px;font-weight:900;color:#6d28d9}.logo span{font-size:11px;color:#f59e0b;display:block}.b1{background:#f59e0b;border:0;padding:9px 15px;border-radius:20px;font-weight:700}.b2{background:#6d28d9;color:#fff;border:0;padding:9px 15px;border-radius:20px;font-weight:700}.hero{background:linear-gradient(90deg,#4c1d95,#7c3aed,#2563eb);color:#fff;padding:22px}.hero h1{font-size:34px}.hero p{margin:10px 0;font-size:14px}.card{background:#fff;border-radius:14px;padding:14px;text-align:center;margin-top:10px;color:#000}.card b{font-size:30px;color:#4c1d95}.sec{padding:15px}.grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px}.box{background:#fff;padding:14px;border-radius:12px;text-align:center}.stats{background:#1e1b4b;color:#fff;display:flex;justify-content:space-around;padding:16px;border-radius:12px;text-align:center}.stats b{font-size:19px;display:block}.feat{background:#fff;border-radius:12px;padding:14px;margin:10px 0}input,select{width:100%;padding:12px;margin:6px 0;border:1px solid #ddd;border-radius:10px}footer{background:#1e1b4b;color:#fff;text-align:center;padding:15px;font-size:12px}</style></head>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#6d4aff">
+<title>Nexora — One place to create, learn and grow</title>
+<style>
+:root{--bg:#0d1020;--panel:#171b31;--muted:#aab0ca;--text:#f7f7ff;--a:#8c70ff;--b:#38d6c5}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% 0%,#29204f 0,transparent 34%),var(--bg);color:var(--text);font:16px system-ui,-apple-system,Segoe UI,sans-serif}
+header{display:flex;align-items:center;justify-content:space-between;padding:18px max(5vw,18px);border-bottom:1px solid #ffffff16;position:sticky;top:0;background:#0d1020eF;backdrop-filter:blur(12px);z-index:5}
+.logo{font-size:23px;font-weight:850;letter-spacing:-1px}.logo span{color:var(--a)}button{border:0;border-radius:12px;padding:11px 15px;font-weight:700;cursor:pointer}.lang{background:#252944;color:white;border:1px solid #ffffff20}
+main{max-width:1100px;margin:auto;padding:48px 20px}.hero{text-align:center;padding:42px 0 35px}.tag{display:inline-block;color:#bcb0ff;background:#8c70ff20;border:1px solid #8c70ff55;border-radius:30px;padding:7px 13px;font-size:13px}
+h1{font-size:clamp(36px,7vw,66px);line-height:1.05;letter-spacing:-2.5px;margin:20px auto 14px;max-width:800px}.gradient{background:linear-gradient(90deg,#b6a6ff,#4be2d0);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{color:var(--muted);max-width:620px;margin:0 auto 25px;line-height:1.7}.search{display:flex;gap:8px;max-width:600px;margin:24px auto}.search input{min-width:0;flex:1;background:#171b31;border:1px solid #ffffff25;border-radius:13px;padding:15px;color:white;font-size:15px}.primary{background:linear-gradient(100deg,#7658f5,#4bcebd);color:#080d1a}
+.section-head{display:flex;justify-content:space-between;align-items:end;gap:10px;margin:35px 0 16px}.section-head h2{margin:0;font-size:24px}.section-head p{margin:0;color:var(--muted);font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card{background:linear-gradient(145deg,#1b2039,#14182a);border:1px solid #ffffff15;border-radius:18px;padding:19px;min-height:155px;transition:.2s}.card:hover{transform:translateY(-3px);border-color:#8c70ff88}.emoji{font-size:25px}.card h3{margin:12px 0 6px;font-size:17px}.card p{color:var(--muted);font-size:13px;line-height:1.5;margin:0}.card button{margin-top:13px;background:#292448;color:#dcd4ff;padding:8px 11px}
+.notice{margin-top:24px;border:1px solid #38d6c544;background:#38d6c510;padding:15px;border-radius:14px;color:#c9f7f1;font-size:13px;line-height:1.6}
+footer{text-align:center;color:#858ba8;padding:25px;border-top:1px solid #ffffff14;font-size:12px}
+#message{color:#b8f3e9;text-align:center;min-height:24px;font-size:14px}
+@media(max-width:720px){main{padding:28px 16px}.grid{grid-template-columns:repeat(2,1fr)}.hero{padding-top:28px}.section-head{align-items:start;flex-direction:column}}
+@media(max-width:430px){.grid{grid-template-columns:1fr}.card{min-height:0}.search{flex-direction:column}.search button{width:100%}}
+</style>
+</head>
 <body>
-<div class="top">🌍 MYBIZORA.IN | Global Business Platform</div>
-<header><div class="logo">MYBIZORA.IN<span>One Platform. Endless Opportunities.</span></div><div><button class="b1">Login</button> <button class="b2">Sign Up</button></div></header>
-<div class="hero"><p>Welcome to</p><h1>MYBIZORA.IN</h1><p><b>One Platform. Endless Opportunities.</b><br>Buy, Sell, Trade, Work and Grow - all in one place.</p><button class="b1">✨ Create Account</button> <button class="b2">🛒 Explore Marketplace</button><div class="card"><p>Registration Fee</p><b>₹50</b><p>One-Time Registration | Demo Only</p><button class="b1" style="width:100%;margin-top:8px">Register Now →</button></div></div>
-<div class="sec"><h3>⭐ Popular Categories</h3><div class="grid"><div class="box">🛍️<br><b>Products</b></div><div class="box">💻<br><b>Services</b></div><div class="box">🤝<br><b>Business</b></div><div class="box">💼<br><b>Jobs</b></div><div class="box">🏠<br><b>Real Estate</b></div><div class="box">📢<br><b>Ads</b></div></div></div>
-<div class="sec"><div class="stats"><div><b>10M+</b>Users</div><div><b>5M+</b>Sellers</div><div><b>20M+</b>Products</div><div><b>150+</b>Countries</div></div></div>
-<div class="sec"><h3>🚀 MYBIZORA.IN Features</h3><div class="feat"><b>1. Business Profile</b><br>Har business ka apna page.</div><div class="feat"><b>2. Buy & Sell</b><br>Saman ki photo, keemat daalna.</div><div class="feat"><b>3. Customer Enquiry</b><br>Grahak sampark kar saken.</div><div class="feat"><b>4. Jobs & Hiring</b><br>Naukri dene aur dhundhne ki suvidha.</div></div>
-<div class="sec" style="background:#fff;border-radius:15px;margin:15px"><h2>📝 Create Account - MYBIZORA.IN</h2><input placeholder="Full Name"><input placeholder="Mobile / Email"><select><option>Country - India</option><option>Pakistan</option><option>USA</option></select><select><option>Buyer</option><option>Seller</option><option>Business</option></select><button class="b1" style="width:100%;padding:14px">Preview Registration →</button></div>
-<footer>MYBIZORA.IN - Grow Together ❤️<br>About | Terms | Privacy | Help | Contact</footer>
-</body></html>
+<header><div class="logo">NEXORA<span>.</span></div><button class="lang" id="langBtn">हिन्दी</button></header>
+<main>
+<section class="hero">
+<div class="tag" id="tag">YOUR DIGITAL WORLD, IN ONE PLACE</div>
+<h1 id="headline">One place to <span class="gradient">create, learn</span> and grow.</h1>
+<p class="sub" id="intro">Explore useful digital tools, learn new skills, build creative projects and discover opportunities — all from one simple platform.</p>
+<div class="search"><input id="searchInput" placeholder="Search tools, learning, ideas..." aria-label="Search"><button class="primary" id="searchBtn">Explore</button></div>
+<div id="message" aria-live="polite"></div>
+</section>
+<div class="section-head"><div><h2 id="exploreTitle">Explore Nexora</h2><p id="exploreSub">Choose a space to get started</p></div></div>
+<section class="grid" id="cards">
+<article class="card" data-words="ai tools writing ideas"><div class="emoji">✨</div><h3>AI & Smart Tools</h3><p>Writing, ideas and everyday productivity helpers.</p><button data-action="AI & Smart Tools">Explore space →</button></article>
+<article class="card" data-words="learn education skills courses"><div class="emoji">📚</div><h3>Learn & Skills</h3><p>Simple learning resources and skill-building guides.</p><button data-action="Learn & Skills">Explore space →</button></article>
+<article class="card" data-words="create design video creator"><div class="emoji">🎨</div><h3>Create Studio</h3><p>Plan content, shape ideas and organize creative work.</p><button data-action="Create Studio">Explore space →</button></article>
+<article class="card" data-words="business jobs work opportunities"><div class="emoji">🚀</div><h3>Work & Business</h3><p>Explore business ideas, work resources and opportunities.</p><button data-action="Work & Business">Explore space →</button></article>
+<article class="card" data-words="community connect people"><div class="emoji">🌍</div><h3>Community</h3><p>A future space to share projects and connect with others.</p><button data-action="Community">Explore space →</button></article>
+<article class="card" data-words="daily utilities calculator planner"><div class="emoji">🧰</div><h3>Daily Helpers</h3><p>Handy utilities and simple planning tools.</p><button data-action="Daily Helpers">Explore space →</button></article>
+</section>
+<div class="notice" id="notice"><strong>Prototype notice:</strong> This is the first free front-end demo. The navigation and search work as a demo; AI services, accounts, saved data and publishing user content need separate integrations and setup. No payment is enabled.</div>
+</main>
+<footer>© 2026 Nexora · A simple starting point for a bigger digital world</footer>
+<script>
+const cards=[...document.querySelectorAll('.card')],msg=document.getElementById('message');
+document.getElementById('searchBtn').onclick=()=>{const q=document.getElementById('searchInput').value.trim().toLowerCase();let count=0;cards.forEach(c=>{const hit=!q||c.innerText.toLowerCase().includes(q)||c.dataset.words.includes(q);c.style.display=hit?'':'none';if(hit)count++});msg.textContent=q?(count?`${count} matching section(s) found.`:'No matching section yet. Try another word.'):'Showing all sections.'};
+document.getElementById('searchInput').addEventListener('keydown',e=>{if(e.key==='Enter')document.getElementById('searchBtn').click()});
+cards.forEach(c=>c.querySelector('button').onclick=()=>{msg.textContent=c.querySelector('h3').innerText+' selected — this section will be built next.'});
+let hindi=false;document.getElementById('langBtn').onclick=()=>{hindi=!hindi;document.getElementById('langBtn').textContent=hindi?'English':'हिन्दी';document.getElementById('tag').textContent=hindi?'आपकी डिजिटल दुनिया, एक ही जगह':'YOUR DIGITAL WORLD, IN ONE PLACE';document.getElementById('headline').innerHTML=hindi?'एक जगह पर <span class="gradient">सीखें, बनाएँ</span> और आगे बढ़ें।':'One place to <span class="gradient">create, learn</span> and grow.';document.getElementById('intro').textContent=hindi?'डिजिटल टूल खोजें, नए कौशल सीखें और अपने रचनात्मक विचारों को आगे बढ़ाएँ।':'Explore useful digital tools, learn new skills, build creative projects and discover opportunities — all from one simple platform.';document.getElementById('exploreTitle').textContent=hindi?'Nexora को explore करें':'Explore Nexora';document.getElementById('exploreSub').textContent=hindi?'शुरू करने के लिए एक सेक्शन चुनें':'Choose a space to get started';document.getElementById('searchInput').placeholder=hindi?'टूल, सीखने या विचार खोजें...':'Search tools, learning, ideas...';document.getElementById('searchBtn').textContent=hindi?'खोजें':'Explore';document.getElementById('notice').innerHTML=hindi?'<strong>डेमो सूचना:</strong> यह पहला मुफ्त फ्रंट-एंड डेमो है। AI सेवाओं, अकाउंट और डेटा सेव करने के लिए अलग सेटअप चाहिए। कोई भुगतान चालू नहीं है.':'<strong>Prototype notice:</strong> This is the first free front-end demo. The navigation and search work as a demo; AI services, accounts, saved data and publishing user content need separate integrations and setup. No payment is enabled.'};
+</script>
+</body>
+</html>
